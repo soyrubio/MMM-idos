@@ -3,6 +3,8 @@
 This is a Magic Mirror Module (https://github.com/MichMich/MagicMirror/), which displays
 real time estimated departures for public transport in the Czech Republic.
 
+*Beware that by using this you might be violating idos.cz ToS*
+
 
 ![screenshoot](img/screenshot.png)
 
@@ -47,6 +49,7 @@ var config = {
 | `displayDestination` | *Optional* Whether to display destination stop. <br><br> **Type:** `boolean`<br> **Default value:** `true`
 
 ## Credits
+
 The module is based on the [MMM-imhdsk By Adman](https://github.com/Adman/MMM-imhdsk), his module is far better than my own would be so this is basically the MMM-imhdsk module remade to fetch departures data from the idos.cz website. Thanks Adman!
 
-*Beware that by using this you might be violating idos.cz ToS*
+
