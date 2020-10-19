@@ -4,7 +4,7 @@ This is a Magic Mirror Module (https://github.com/MichMich/MagicMirror/), which 
 real time estimated departures for public transport in the Czech Republic.
 
 
-![screenshoot](img/screenshoot.png)
+![screenshoot](img/screenshot.png)
 
 ## Installation
 
