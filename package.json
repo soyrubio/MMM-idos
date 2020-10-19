@@ -1,0 +1,27 @@
+{
+  "name": "MMM-idos",
+  "version": "1.0.0",
+  "description": "Display estimations for public transport stops in the Czech republic.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soyrubio/MMM-idos.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "bus stop",
+    "tram stop",
+    "czech republic",
+    "public transport"
+  ],
+  "author": "elrubio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soyrubio/MMM-idos/issues"
+  },
+  "homepage": "https://github.com/soyrubio/MMM-idos",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^5.3.1",
+    "tor": "0.0.1"
+  }
+}

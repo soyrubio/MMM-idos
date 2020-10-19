@@ -1,0 +1,32 @@
+/* Magic Mirror
+ * Module: MMM-idos
+ * Description: Display estimations for public transport stops in Bratislava, Slovakia
+ *
+ * By Adrian Matejov https://github.com/Adman
+ * MIT Licensed.
+ */
+
+.MMM-idos {
+    width : 300px;
+}
+
+.MMM-idos tr {
+    padding-top: 5px;
+}
+
+.blinking .blink {
+    animation: blink 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes blink {
+    from { opacity: 0.2; }
+    to { opacity: 1; }
+}
+
+.idos-padding-left {
+    padding-left: 5px;
+}
+
+.MMM-idos table {
+    font-size: 1rem;
+}
