@@ -21,10 +21,10 @@ var config = {
     modules: [
         {
             module: 'MMM-idos',
-            header: '<header>', // no header will be displayed if ommited 
+            header: 'Praha Masarykovo n.', // no header will be displayed if ommited 
             position: 'top_right',   // position of the module
             config: {
-                stopId: string, // "https://idos.idnes.cz/vlakyautobusymhdvse/odjezdy/vysledky/?f=the_stop
+                stopId: 'Praha%20Masarykovo%20n.', // "https://idos.idnes.cz/vlakyautobusymhdvse/odjezdy/vysledky/?f=the_stop
                 /* other configurations */
             }
         }
