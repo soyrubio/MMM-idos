@@ -17,7 +17,7 @@ Module.register('MMM-idos', {
 		fadePoint: 0.25, // Start on the 1/4th of the list
 		fade: true,
         blink: true,
-        torPorts: ['9050', '9052', '9053', '9054']
+        torPorts: []
 	},
 
 	getStyles: function () {
