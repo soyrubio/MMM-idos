@@ -28,7 +28,7 @@ Module.register('MMM-idos', {
 		return {
 			en: "translations/en.json",
             sk: "translations/sk.json",
-            cz: "translations/sk.json",
+            cs: "translations/cs.json",
 		}
 	},
 
