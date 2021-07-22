@@ -4,7 +4,7 @@
  *
  * By elrubio https://github.com/soyrubio
  * MIT Licensed.
- * 
+ *
  * This is a web scraper for the MMM-idos module
  * The data is scraped from https://idos.idnes.cz/vlakyautobusymhdvse/odjezdy/
  */
@@ -44,7 +44,7 @@ function parse_body(body) {
 	}
 
   output.sort(getSortOrder("departurewdelay"));
-  
+
 	return output;
 }
 
@@ -72,7 +72,7 @@ function getDepartureWDelay(dep, delay) {
 
 async function scrape(options, callback) {
 	try {
-		var port_arg;
+		var port_arg = '';
 		if (options.ports.length > 0) {
 			const randomPort = options.ports[Math.floor(Math.random() * options.ports.length)];
 			port_arg = '--proxy-server=socks5://127.0.0.1:' + randomPort;
